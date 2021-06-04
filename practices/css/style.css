@@ -1,0 +1,12 @@
+body {
+ background-color: lightblue;
+ border: 5px solid red;
+}
+h1 {
+ color: navy;
+ margin-left: 20px;
+} 
+
+name{color:red; font-style: italic;}
+roll{display:block; color:green; font-style: italic;}
+mobile{display: block; color: yellowgreen;font-style: italic;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+   </head>
+   <body>
+      <table border=5 align="center">
+         <caption align="bottom">Registration form</caption>
+         <form name="f1" action="second.html" method="POST">
+            <tr>
+               <td>First Name</td>
+               <td><input type="text" name="t1" size="30" maxlength="30"></td>
+            </tr>
+            <tr>
+               <td>Last name</td>
+               <td><input type="text" name="t2" size="30" maxlength="30" ></td>
+            </tr>
+            <tr>
+               <td>qualification</td>
+               <td><input type="checkbox" name="c1" value="B.tech"
+                  checked>B.tech<br>
+                  <input type="checkbox" name="c2" value="M.tech" >M.tech
+               </td>
+            </tr>
+            <tr>
+               <td>Gender</td>
+               <td><input type="radio" name="r1" value="Male" checked> male
+                  <input type="radio" name="r1" value="FeMale" >female
+               </td>
+            </tr>
+            <tr>
+               <td>Password</td>
+               <td><input type="password" name="p1" size="30" maxlength="8"
+                  ></td>
+            </tr>
+            <tr>
+               <td>Remarks</td>
+               <td><TEXTAREA readonly ROWS="3" COLS="30" name="remarks"
+                  >Stopping the spreadstarts with you Wear a mask.
+                  </TEXTAREA>
+               </td>
+            </tr>
+            <tr>
+               <td align="center" colspan="2"><input type="submit" name="b1" value="SUBMIT"
+                  size="20">&nbsp;<input type="reset" name="reset" value="RESET" size="20">
+                  <input type="submit" name="b2" value="LOGIN" formaction="page3.html" size="20">
+               </td>
+            </tr>
+         </form>
+      </table>
+   </body>
+</html>
